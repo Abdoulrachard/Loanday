@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(47, 72, 78);
+    height: 25px;
+    padding: 10px;
+}
+header div img {
+    height: 14px;
+    width: 14px;
+    margin-right: 6.5px;
+ }
+header div p{
+    font-size: 17px;
+    color: white;
+    display: inline;
+    margin-left: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parag{
+    border-right: 2px solid rgb(174, 148, 148);
+    padding-right: 35px; 
+}
+header div{
+    position: relative;
+    float: left;
+    left: 230px;
+}
+header div select{
+    font-size: 20px;
+    font-family:  sans-serif;
+    background-color: rgb(114, 214, 37);
+    position: relative;
+    float: right;
+    right: -150px;
+    float: bottom;
+    bottom: 10px;
+    padding: 9px;    
+}
+.ccc  .log {
+   height: 40px;
+   width: 40px;
+   position: relative;
+   float: top;
+   top: 6.5px;
+}
+.ccc{
+    position: absolute;
+
+}
+.ccc ul li {
+    display: inline;
+    margin: 50px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    float: bottom;
+}
+.ccc .rec{
+    width: 20px;
+    height: 20px;
+}
+.ccc ul li :hover {
+    border-bottom: 4px  rgb(209, 224, 71) solid;
+    color: rgb(83, 223, 83);
+}
+.ccc .ddd {
+    position: relative;
+    float: right;
+    right: -150px;
+    padding-bottom: 50px;
+}
+span {
+    color: rgb(136, 210, 56);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section2{
+    position: relative;
+    float: top;
+    top: 65px;
+    width: auto;
+    height: 100vh;
+    background-image: url(abs.jpg);
+}
+.section2 #asc {
+    position: absolute;
+    float: top;
+    top: 300px;
+    float: left;
+    left: 900px;
+    margin-bottom: 200px;
+}
+.section2 #asc .P1{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: xx-large;
+    color: white;
+}
+.section2 #asc .P2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(195, 222, 195);
+}
+.section2 #asc #oo1 {
+    padding: 7px;
+    background-color: rgb(217, 192, 28);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border-top-left-radius: 10px ;
+}
+.section2 #asc #oo2 {
+    padding: 7px;
+    background-color: rgb(48, 70, 113);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+.section2 #asc #dpl{
+    position: absolute;
+    float: top;
+    top:  90px;
+}
+.section2 #asc #dpl #ooo{
+   position: absolute;
+    float:top;
+    top: 85px;
+}
+.formul {
+    position:absolute;
+    float: right;
+    right: 700px;
+    float: top;
+    top: 1px ;
+}
+.formul .formulaire {
+    padding: 25px;
+    background-color: white;
+    border: none;
+}
+.formul .formulaire input {
+    padding: 6.5px;
+    border: none;
+    background-color: rgba(191, 197, 191, 0.921);
+    width: 250px;
+}
+.formul .formulaire h1{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif Arial, sans-serif;
+    position: relative;
+    float:bottom;
+    bottom: 10px;    
+}
+.formul .formulaire input[type=submit]{
+    padding: 6.5px;
+   /* border: none;*/
+    background-color: rgba(248, 105, 44, 0.899);
+    font-size: 15px;
+    width: 260px;
+    position: relative;
+    float: top;
+    top: 12px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(230, 235, 239);
+}
+@media screen and (max-width:900px){
+   /* .section2 img {
+        height: auto;
+        width: auto;
+    }
+    header div  img {
+        height: auto;
+        width: auto;
+        
+    }*/
+    
+}
