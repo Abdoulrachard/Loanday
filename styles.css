@@ -146,10 +146,15 @@ span {
 }
 .formul .formulaire input {
     padding: 6.5px;
-    border: 1.8px solid rgb(156, 182, 227);
+    border: 1.8px solid #dee2e6;
     background-color: white;
     border-radius: 5px;
     width: 250px;
+    box-shadow: 0.5px 0.5px 1px rgb(134, 151, 151) ;
+}
+
+*:focus {
+   outline-color: #fb0261;
 }
 .formul .formulaire h1{
     font-size: 20px;
@@ -170,6 +175,7 @@ span {
     border-radius: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(230, 235, 239);
+    box-shadow: none;
 }
 @media screen and (max-width:900px){
    /* .section2 img {
