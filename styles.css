@@ -150,11 +150,16 @@ span {
     background-color: white;
     border-radius: 5px;
     width: 250px;
-    box-shadow: 0.5px 0.5px 1px rgb(134, 151, 151) ;
+   
+   
 }
-
+input:focus{
+    box-shadow: 2px 2px 5px #5a2237;
+    border: 2px solid orange;
+}
 *:focus {
-   outline-color: #fb0261;
+   outline-color: #cc346e;
+    
 }
 .formul .formulaire h1{
     font-size: 20px;
